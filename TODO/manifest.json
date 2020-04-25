@@ -1,0 +1,20 @@
+{
+  "name": "Basic TODO 64J0",
+  "version": "1.0",
+  "description": "A simple task managements application",
+  "permissions": ["storage", "declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/checklist3-16.png",
+    "32": "images/checklist3-32.png",
+    "48": "images/checklist3-48.png",
+    "128": "images/checklist3-128.png"
+  },
+  "manifest_version": 2
+}

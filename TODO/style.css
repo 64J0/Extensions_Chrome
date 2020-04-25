@@ -1,0 +1,71 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+html {
+  background-color: rgba(71, 59, 209, 0.5);
+}
+
+body {
+  width: 290px;
+  min-height: 400px;
+  background-color: #fff;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+li {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+input {
+  height: 20px;
+}
+
+button#btn-add {
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button#btn-add:hover {
+  background-color: #0e61ea;
+}
+
+input[type="text"] {
+  margin-left: 15px;
+  border: none;
+  border-bottom: 1px solid #666;
+  padding-left: 10px;
+  flex: 1;
+}
+
+input[type="checkbox"] {
+  margin: 0 15px;
+  cursor: pointer;
+  width: 20px;
+}
+
+input[type="checkbox"]:checked::after {
+  background-color: #2196f3;
+}
