@@ -2,10 +2,8 @@
 
 The aim of this extension is to show a TODO popup that a user can put the tasks he/she wants to do in the day.
 
-Those informations will be saved in the browser self storage mechanism.
+Those informations will be saved in the browser localStorage mechanism.
 
-## The Architecture of an extension:
+![A print of the page of the extension in chrome web store](https://github.com/64J0/Extensions_Chrome/blob/master/imgs-github/todo-extension.JPG)
 
-### Background Script:
-
-The background script is the extension's event handler; it contains listeners for browser events that are important to the extension. It lies dormant until an event is fired then performs the instructed logic. An effective background script is only loaded when it is needed and unloaded when it goes idle.
+Vinícius Gajo Marques Oliveira, 2020.
