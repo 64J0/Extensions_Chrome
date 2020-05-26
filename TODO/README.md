@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/checklist3-48.png" alt="Extension's logo" />
+  <img src="./images/checklist3-128.png" alt="Extension's logo" />
 </p>
 
 # A TODO extension for chrome
