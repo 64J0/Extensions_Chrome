@@ -1,7 +1,7 @@
 {
   "name": "Basic TODO 64J0",
   "version": "1.1",
-  "description": "A simple task managements application, that saves the data in localStorage in the browser. Open source code at: https://github.com/64J0/Extensions_Chrome/tree/master/TODO.",
+  "description": "A simple task managements application. Open source code at: https://github.com/64J0/Extensions_Chrome/tree/master/TODO.",
   "permissions": [],
   "background": {
     "scripts": ["background.js"],
