@@ -5,6 +5,7 @@
 # A TODO extension for chrome
 
 The aim of this extension is to show a TODO popup that a user can put the tasks he/she wants to do in the day, and then, when those tasks have been completed, the user could just click in the checkbox to erase that task. **Dopamine boost**
+<<<<<<< HEAD
 
 Those informations will be saved in the browser localStorage mechanism.
 
