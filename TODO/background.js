@@ -1,19 +1,19 @@
 "use strict";
 
-// When the user clicks in the extension icon the popup
-// window should open for him to annotate his tasks.
+// Adiciona uma badge embaixo do ícone da extensão para
+// mostrar quantas tasks estão cadastradas no momento.
 
-chrome.runtime.onInstalled.addListener(function () {
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {
-    chrome.declarativeContent.onPageChanged.addRules([
-      {
-        conditions: [
-          new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { hostContains: "" },
-          }),
-        ],
-        actions: [new chrome.declarativeContent.ShowPageAction()],
-      },
-    ]);
-  });
+chrome.browserAction.setBadgeText({
+  text: String(localStorage.length - 1),
 });
+
+// window.onstorage é um evento que é acionado quando algum
+// dado do localStorage é alterado.
+
+window.onload = () => {
+  window.onstorage = () => {
+    chrome.browserAction.setBadgeText({
+      text: String(localStorage.length - 1),
+    });
+  };
+};
