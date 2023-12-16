@@ -11,8 +11,12 @@ Using browser extensions we have a simple mechanism to extend this tool's featur
 * TODO list (🍎 this one has been published, take a look: <a href="https://chrome.google.com/webstore/detail/basic-todo-64j0/ceefjjghfcgpaoaajgmbcpholamapagc?hl=pt-BR">Link to the extension's page</a>);
 
 
-## Run Eslint:
+## Useful commands:
 
 ```bash
+# run eslint
 npx eslint --fix Local-TO-DO/
+
+# create a zip
+zip -r <result-file>.zip <origin-folder>/
 ```
