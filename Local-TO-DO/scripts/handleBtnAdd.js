@@ -12,18 +12,18 @@ export const handleInputChange = (event, randomStrNum) => {
   );
 };
 
-export const handleCheckbox = (randomStrNum) => {
-  localStorage.removeItem(randomStrNum);
+export const handleCheckbox = (taskIndex) => {
+  localStorage.removeItem(taskIndex);
 
   const indexArray = getDecodedIndexArray();
-  const newIndexArray = indexArray.filter((index) => {
-    String(index) !== randomStrNum;
+  const newIndexArray = indexArray.filter((idx) => {
+    return idx !== taskIndex;
   });
   newIndexArray.join(', ');
   localStorage.setItem('index', newIndexArray);
 
   // Deletes the item from ul
-  const liExcluded = document.getElementById(randomStrNum);
+  const liExcluded = document.getElementById(taskIndex);
   liExcluded.parentNode.removeChild(liExcluded);
 };
 

@@ -11,7 +11,7 @@ window.onload = () => {
 
   // populate based on local storage data
   indexArray.forEach((indexItem) => {
-    const value = localStorage.getItem(id);
+    const value = localStorage.getItem(indexItem);
     createNewLi(indexItem, value);
   });
 };
