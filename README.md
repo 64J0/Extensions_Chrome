@@ -4,12 +4,15 @@
 
 # Extensions for Google Chrome
 
-The final objective is to make a TO-DO extension that is easy to use. The data will be stored in the localStorage of the browser.
-That's it.
+Using browser extensions we have a simple mechanism to extend this tool's features and behaviors. This repository holds the code I'm using to create some useful extensions in my perspective.
 
 ## Already made:
 
-* Tutorial (😁);
 * TODO list (🍎 this one has been published, take a look: <a href="https://chrome.google.com/webstore/detail/basic-todo-64j0/ceefjjghfcgpaoaajgmbcpholamapagc?hl=pt-BR">Link to the extension's page</a>);
 
-Vinícius Gajo Marques Oliveira, 2020.
+
+## Run Eslint:
+
+```bash
+npx eslint --fix Local-TO-DO/
+```
