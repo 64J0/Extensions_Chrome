@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Basic TODO 64J0",
   "version": "1.3",
-  "description": "A simple task managements application. Code at: https://github.com/64J0/Extensions_Chrome/tree/master/TODO.",
+  "description": "A simple task managements application. Code at: https://github.com/64J0/Extensions_Chrome/tree/master/Local-TO-DO.",
   "action": {
     "default_title": "Basic TODO",
     "default_popup": "popup.html"
